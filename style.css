@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif, Roboto, Helvetica;
+    background-color: #07090e;
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+.badge {
+    display: flex;
+    background-color:  rgba(6, 182, 212, 0.15);
+    border: 1px solid rgba(6, 182, 212, 0.15);
+    border-radius: 5px; 
+}
+
+@media (min-width: 768px) {
+    .badge {
+        flex-direction: row;
+        align-items: center;
+    }
+}
+.hero-card {
+flex-direction: column;
+align-items: center;
+}
